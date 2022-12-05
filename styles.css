@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+.main{
+    display: flex;
+}
+
+img{
+   width: 30%;
+   height: 100vh;
+}
+h4{
+    word-wrap: break-word;
+    line-height: 2;
+    padding: 3rem;
+   
+}
+.signup-form{
+
+    padding: 3rem;
+    
+   
+   
+
+}
+.name{
+    margin: 1rem;
+    padding: 1rem;
+   
+
+}
+.contact{
+
+    margin: 1rem;
+    padding: 1rem;
+}
+.password{
+    margin: 1rem;
+    padding: 1rem;
+}
