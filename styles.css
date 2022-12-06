@@ -17,24 +17,22 @@ h4{
 }
 .signup-form{
 
-    padding: 3rem;
+    margin: 3rem;
     
    
    
 
 }
-.name{
-    margin: 1rem;
-    padding: 1rem;
-   
-
+.input-group{
+    display: inline-block;
+    margin-left: 3rem;
+    margin-top: 2rem;
 }
-.contact{
 
-    margin: 1rem;
-    padding: 1rem;
+.submit-div{
+
+    margin: 3rem;
 }
-.password{
-    margin: 1rem;
-    padding: 1rem;
+label{
+    font-size: x-small;
 }
