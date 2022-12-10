@@ -1,38 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&family=Roboto+Slab:wght@100;200;400;600&display=swap');
+*{
+    box-sizing: border-box;
+    --accent:#7A0BD1;
+    --background:#171717;
+    --text:#FDFBF9;
+    --input-border:#313131;
+    --form-text:#7e7d7d;
+    color: var(--text);
+    font-family: 'Roboto Slab', serif;
+
+}
+
 body{
     margin: 0;
+    overflow: hidden;
+    background-color: var(--background);
 }
 .main{
     display: flex;
 }
+.logo{
 
-img{
-   width: 30%;
-   height: 100vh;
+    height: 100vh;
+   justify-content: flex-start;
+    padding-top: 4rem;
+    background-image: url(./images/hiep-nguyen-16xJbmtpO6o-unsplash1.jpg);
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
 }
-h4{
+.logo > div{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    opacity: .4;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo>div>img{
+    height: 10vh;
+    
+}
+.log>div>h1{
+    font-family: 'Fondamento', cursive;
+}
+.form-paragraph{
     word-wrap: break-word;
     line-height: 2;
-    padding: 3rem;
+    margin-left: 4rem;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
    
 }
+.calltoactionparagraph{
+
+    word-wrap: break-word;
+    line-height: 2;
+    margin-left: 4rem;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-container{
+
+    box-shadow: 0px 5px 5px rgba(99, 99, 99, 0.12);
+    padding: 1rem;
+}
 .signup-form{
-
-    margin: 3rem;
-    
-   
-   
-
+    padding-left: 2rem;
+}
+.form-text{
+    padding-left: 3rem;
+    font-size: 18px;
 }
 .input-group{
     display: inline-block;
-    margin-left: 3rem;
-    margin-top: 2rem;
+    padding: 1rem;
 }
 
 .submit-div{
 
-    margin: 3rem;
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+
+button{
+    width: 15rem;
+    font-size: large;
+    padding: 1rem;
+    background-color: transparent;
+    color:var(--accent);
+    border: 2px solid var(--accent);
+    border-radius: .6rem;
+    font-weight: bolder;
+    
 }
 label{
-    font-size: x-small;
+    font-size: small;
+    color: var(--form-text);
+}
+input{
+    width: 20rem;
+    font-size: medium;
+    background-color: transparent;
+    border: .5px solid var(--input-border);
+    border-radius: 3px;
+    transition: .4s;
+    
+}
+input:focus{
+    
+    outline-width: 0;
+    border: .5px solid var(--accent);
+}
+button:hover{
+
+    background-color: var(--accent);
+    cursor: pointer;
+    color: var(--background);
+    transition: .5s;
+}
+.signin-message{
+    margin-left: 3rem;
+    margin-top: 1rem;
+    letter-spacing: .4px;
+    font-size: large;
+}
+.login-text{
+    color: var(--accent);
+    font-weight: bolder;
+}
+.login-text:hover{
+    cursor: pointer;
+    color: #9915ff;
+    
 }
